@@ -1,0 +1,84 @@
+#body{
+    background-color: rgba(72, 62, 62, 0.066);
+}
+
+#nadpis{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#tabulka{
+    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.71);
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid; height: 400px; width: 300px;
+    border-radius: 8px;
+}
+
+#email{
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    margin: auto;
+    font-size: 20px;
+    display: block;
+}
+
+#password{
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    margin: auto;
+    font-size: 20px;
+    display: block;
+}
+
+#email-nápis{
+    margin-left: 23px;
+    font-family: Arial, sans-serif;
+}
+
+#password-nápis{
+    margin-left: 23px;
+    font-family: Arial, sans-serif;
+}
+
+#button{
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    border-radius: 3px;
+    border: #fff;
+    background-color: rgb(105, 209, 0);
+    margin-left: 26px;
+    width: 250px;
+}
+
+#přihlášení{
+    position: relative;
+    top: 15px;
+    margin-left: 73px;
+}
+
+#přihlásit{
+    position: relative;
+    top: 15px;
+    float: none;
+}
+
+#zůstat_přihlášen{
+    position: relative;
+    bottom: 7px;
+    font-size: 0.85em;
+    margin-left: 23px;
+    font-family: Arial, sans-serif;
+}
+
+#zůstat_přihlášen_button{
+    position: relative;
+    bottom: 5px;
+}
+
+#zapomněli_jste_heslo{
+    position: relative;
+    top: 15px;
+    margin-left: 78px;
+}

@@ -1,0 +1,120 @@
+#body{
+    background-color: rgba(72, 62, 62, 0.066);
+}
+
+#nadpis{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#h2{
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#tabulka{
+    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.71);
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid; height: 300px; width: 320px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#userAnswer{
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    margin: auto;
+    font-size: 20px;
+    display: block;
+}
+
+#překlad-nápis{
+    font-size: 18px;
+    margin-left: -230px;
+    font-family: Arial, sans-serif;
+}
+
+#button1{
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    border-radius: 3px;
+    border: #fff;
+    background-color: rgb(105, 209, 0);
+    text-align: center;
+    width: 250px;
+    position: fixed;
+    bottom: 170px;
+    left: 618px;
+}
+
+#button2{
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    border-radius: 3px;
+    border: #fff;
+    background-color: rgb(151, 152, 151);
+    text-align: center;
+    width: 90px;
+    position: fixed;
+    bottom: 390px;
+    left: 790px;
+}
+
+#result{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#myPieChart{
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+
+#vyhodnocení{
+    font-size: 20px;
+    position: relative;
+    left: 900px;
+    bottom: 370px;
+    font-family: Arial, sans-serif;
+}
+
+#numberOfIncorrectAnswers{
+    margin: 15px;
+    position: relative;
+    left: -15px;
+}
+
+#button3{
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    border-radius: 3px;
+    border: #fff;
+    background-color: rgb(151, 152, 151);
+    text-align: center;
+    width: 180px;
+    position: fixed;
+    bottom: 200px;
+    left: 70.5%;
+}
+
+#button4{
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    border-radius: 3px;
+    border: #fff;
+    background-color: rgb(151, 152, 151);
+    text-align: center;
+    width: 120px;
+    position: fixed;
+    bottom: 200px;
+    left: 61.5%;
+}

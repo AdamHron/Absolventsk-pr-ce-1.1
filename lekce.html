@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lekce 1</title>
+    <link rel="stylesheet" href="lekce.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body id="body">
+    <br>
+    <br>
+
+    <h1 align="center" id="nadpis">
+        <b>Lekce 1</b>
+    </h1>
+    <canvas id="myPieChart" width="400px" height="400px"></canvas>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="vyhodnocení">
+        <div id="numberOfCorrectAnswers"></div>
+        <div id="numberOfIncorrectAnswers"></div>
+        <div id="úspěšnost"></div>
+        
+        <a href="procvičování.html">
+        <button id="button3" type="button">Zpět na procvičování</button>
+        </a>
+        <a href="lekce.html">
+            <button id="button4" type="button">Zkusit znovu</button>
+        </a>
+
+    </div>
+
+    <form id="tabulka" onsubmit="return false;">
+        <br>
+        <label for="userAnswer" id="překlad-nápis">přelož</label><br>
+        <h2 id="h2"></h2><br>
+        <input type="text" id="userAnswer" placeholder="Napiš odpověď"><br>
+
+        <div id="result"></div>
+        <br>
+        <button id="button1" type="button" onclick="button()">hotovo</button>
+        <button id="button2" type="button" onclick="next()">Další</button>
+    </form>
+    <!-- Ujistíme se, že skript je načten po HTML -->
+    <script src="lekce.js" defer></script>
+</body>
+</html>
